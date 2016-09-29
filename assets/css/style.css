@@ -1,0 +1,256 @@
+
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin :0 auto;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color :#ffffff;
+	background-color: #4aaaa5;
+	padding: 20px;
+	text-align: center;
+}
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color :#4aaaa5;
+}
+.container{
+	width: 960px;
+	
+}
+
+.headercontainer{
+	background-color: white;
+	float:left;
+	width:100%;
+}
+
+#leftheader{
+	margin-left: 40px;
+	float: left;
+	width: 30%;
+}
+
+#rightheader{
+	width:60%;
+	margin-top: 40px;
+	margin-right: 20px;
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+#rightheader a{
+	text-decoration: none;
+	color: #eeeeee;
+	border: transparent;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.bodycontainer{
+	width:100%;
+	background-color: #eeeeee;
+	margin: 0px 20px 0px 20px;
+	float:left;
+	padding: 20px 20px 20px 20px;
+
+}
+.aboutmecontainer {
+	background-color: #ffffff;
+	width: 70%;
+	float:left;
+	margin-right: 20px;
+	position: relative;
+}
+
+
+.contactcontainer {
+	background-color: #ffffff;
+	width: 20%;
+	float:left;
+	padding: 10px 10px 10px 10px;
+}
+
+
+footer{
+	clear: both;
+	
+}
+
+.iconbox {
+	height: 60px;
+	width: 60px;
+}
+
+#smallbox {
+	width: 400px;
+	height: 400px;
+	-webkit-transform: rotate(-90deg);
+	margin: 10px 20px 10px 20px;
+	float:left;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a{
+	display: block;
+	padding: 2px;
+}
+
+.connectionscontainer{
+	background-color: #666666;
+	color:#ffffff;
+	float:left;
+	text-align: center;
+	font-size: 12px;
+	padding: 20px 20px 20px 20px;
+	width: 100%;
+	margin: 0px 0px 0px 20px;
+}
+
+.drawline{
+	background-color: #4aaaa5;
+	width: 100%; 
+	float: left;
+	height: 10px;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 20px 0px 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 30px;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+
+}
+
+
+.portfoliobox{
+	margin :10px 10px 10px 10px;
+	position: relative;
+	float: left;
+}
+
+.image {
+	width:210px;
+	height: 190px;
+	border: 1px solid;
+}
+
+.imagebanner {
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	margin :10px 10px 10px 0px;
+	border: 1px solid;
+	text-align: center;
+	position: absolute;
+	width: 190px;
+	bottom: 40px;
+}
+
+@media screen and (max-width: 980px) {
+
+	/* The body's bg color will be #333 */
+	body {
+		background-color: white;
+	}
+
+	/* The wrapper's width will be 600px */
+	.container {
+		width: 960px;
+	}
+
+	.headercontainer{
+		position: static;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	/* The body's bg color will be #333 */
+	body {
+		background-color: white;
+	}
+
+	/* The wrapper's width will be 600px */
+	.container {
+		width: 700px;
+	}
+	.headercontainer{
+		position: static;
+	}
+	.aboutmecontainer {
+
+		width: 100%
+		float: none;
+	}
+	#rightheader{
+		text-align: center;
+	}
+	.contactcontainer {
+	width: 100%;
+	float:right;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	/* The body's bg color will be #333 */
+	body {
+		background-color: white;
+	}
+
+	/* The wrapper's width will be 600px */
+	.container {
+		width: 600px;
+	}
+
+	.headercontainer{
+		position: static;
+	}
+
+	.aboutmecontainer {
+		width: 80%;
+		float: none;
+	}
+	#rightheader{
+		text-align: left;
+	}
+
+.contactcontainer {
+	width: 100%;
+	float:right;
+}
+.imagebanner {
+	width: 90%;
+	bottom: 40%;
+}
+}
